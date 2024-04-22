@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+        <title>Upskill Form</title>
+    </head>
+    <body>
+        <form action="" method="post">
+            
+            <h1>Genesys Upskill Form</h1>
+
+            <p>
+                <label for="name">Name</label> <br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" class="input"><br>
+            </p>
+
+            <p>
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" class="input"><br>
+            </p>
+
+            <p>
+                <label for="age">Age</label> <br>
+                <input type="number" id="age" name="age" placeholder="Enter your age" class="input">
+            </p>
+
+        <p>
+                <p>What option best describes you?</p>
+                <select name="occupation" class="input">
+                    <option value="student" selected>student</option>
+                    <option value="teacher">teacher</option>
+                    <option value="retired">retired</option>
+                </select>
+            </p>
+        
+            <p>Would you recommend Genesys Upskill to a friend?</p>
+
+            <div>
+                <div>
+                    <input type="radio" name="yes" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                </div>
+            
+                <div>
+                    <input type="radio" name="no" id="no" value="no">
+                    <label for="no">No</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="maybe" id="maybe" value="maybe">
+                    <label for="maybe">Maybe</label>
+                </div>
+            </div>
+
+        <p>Languages and Frameworks known (check all that apply)</p>
+
+        <p>
+                <input type="checkbox" id="C" name="language" value="C">
+                <label for="C">C</label><br>
+                
+                <input type="checkbox" id="C++" name="language" value="C++">
+                <label for="C++">C++</label><br>
+
+                <input type="checkbox" id="C#" name="language" value="C#">
+                <label for="C#">C#</label><br>
+
+                <input type="checkbox" id="java" name="language" value="java">
+                <label for="java">Java</label><br>
+
+                <input type="checkbox" id="python" name="language" value="python">
+                <label for="python">Python</label><br>
+
+                <input type="checkbox" id="javascript" name="language" value="javascript">
+                <label for="javascript">Javascript</label><br>
+
+                <input type="checkbox" id="react" name="language" value="react">
+                <label for="react">React</label><br>
+
+                <input type="checkbox" id="angular" name="language" value="angular">
+                <label for="angular">Angular</label><br>
+
+                <input type="checkbox" id="django" name="language" value="django">
+                <label for="django">Django</label><br>
+
+                <input type="checkbox" id="spring" name="language" value="spring">
+                <label for="spring">Spring</label>
+        </p>
+
+        <p>
+                <p>Any comments or suggestions</p>
+
+                <textarea name="comments" id="" cols="50" rows="3"></textarea>
+        </p>
+
+            <input type="submit" value="Submit" class="Submit">
+
+        </form>
+
+    </body>
+</html>

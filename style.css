@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+form{
+    background-color: aliceblue;
+    padding: 1rem 4rem;
+}
+.Submit{
+    background-color: rgb(12, 59, 12);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 1rem 10.8rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.input{
+    padding: 0.5rem 10.8rem 0.5rem 1rem;
+    margin-top: 0.5rem;
+}
